@@ -13,8 +13,8 @@ Throughout this internship, I have had the opportunity to work on various tasks 
 
 To get a copy of the project up and running on your local machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/dabotics-internship.git`
-2. Navigate to the project directory: `cd dabotics-internship`
+1. Clone the repository: `git clone https://github.com/iamsahil1309/DDABOTICS.git`
+2. Navigate to the project directory: `cd DABOTICS`
 
 ## Contributing
 
