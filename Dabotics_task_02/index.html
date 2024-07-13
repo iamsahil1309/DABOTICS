@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="flex">
+
+    <div class="container hide">
+        <nav>
+            <h1 class="logo">QuizGame <span>JS</span></h1>
+        </nav>
+
+        <div class="content">
+            <div class="left">
+                <h1>
+                    Explore endless quizzes across every category, crafted with  <span>JavaScript</span> for endless fun!
+                </h1>
+                <button id="start"> START QUIZ <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="image">
+                <img src = "image/undraw_questions_re_1fy7.svg" alt="My Happy SVG"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="quiz-container">
+            <div class="quiz-head">
+                <h1 class="quiz-title">Quiz Game</h1>
+                <div class="quiz-score flex">
+                    <span id="correct-score"></span>/<span id="total-question"></span>
+                </div>
+            </div>
+
+            <div class="quiz-body">
+                <h2 id="question"  class="quiz-question" >
+                <!--What is the full form of HTTP? <br> <span class="category">Geography</span>-->
+                </h2>
+                <ul class="quiz-options">
+                    <!-- <li>1. option 1</li>
+                    <li>1. option 1</li>
+                    <li>1. option 1</li>
+                    <li>1. option 1</li> -->
+                </ul>
+                <div id="result">
+                    <!-- result -->
+                </div>
+            </div>
+
+            <div class="quiz-foot">
+                <button id="check-answer" type="button">Check Answer</button>
+                <button id="play-again" type="button">Play Again!</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -257,6 +257,7 @@ nav{
     color: var(--text-dark);
 }
 
+
 @media (width > 768px){
     nav{
         position: static;
@@ -354,3 +355,6 @@ nav{
         margin-inline-start: unset;
     }
 }
+
+
+
